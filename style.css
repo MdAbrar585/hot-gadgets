@@ -1,0 +1,48 @@
+.navbar{
+    background-color: white;
+}
+.carousel{
+    height: 500px;
+}
+.carousel img{
+    width: 100%;
+    height: 500px;
+    padding-right: 20px;
+}
+.carousel p{
+    width: 80%;
+}
+.ban-1{
+    padding: 40px 120px;
+}
+.btn-custom{
+    color: white;
+    background-color: black;
+    border-radius: 7px;
+    border: none;
+    padding: 5px 10px;
+}
+.cd-btn{
+    margin-bottom: 10px;
+}
+.card-deck{
+    text-align: center;
+    margin-bottom: 40px;
+}
+.card{
+    border: none;
+    border-radius: 20px;
+    box-shadow: 5px 5px 25px lightgrey;
+}
+.card-footer{
+    background-color: white;
+    border-top: none;
+}
+.phone-head{
+    margin-bottom: 20px;
+}
+.phone-head a{
+    color: #F2C783;
+    font-size: 20px;
+    font-weight: 700px;
+}
