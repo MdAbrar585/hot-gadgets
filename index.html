@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hot Gadgets</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
@@ -23,14 +24,14 @@
         <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
 
             <div class="navbar-nav">
-                <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
-                <a class="nav-item nav-link" href="#">Features</a>
-                <a class="nav-item nav-link" href="#">Pricing</a>
+                <a class="nav-item nav-link active" href="#home">Home <span class="sr-only">(current)</span></a>
+                <a class="nav-item nav-link" href="#phones">Phones</a>
+                <a class="nav-item nav-link" href="#laptop">Laptop</a>
                 <a class="nav-item nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
             </div>
         </div>
     </nav>
-    <div class="container">
+    <div class="container" id="home">
         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">
                 <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -95,90 +96,100 @@
         </div>
     </div>
 
-    <div class="container">
+    <div class="container" id="phones">
         <div class="phone-head d-flex justify-content-between">
             <h2>Smart Phones</h2>
             <a href="#">See all</a>
         </div>
         <div class="card-deck">
             <div class="card">
-              <img class="card-img-top" src="images/phone/phone-2.png" alt="Card image cap">
-              <div class="card-body">
-                <h5 class="card-title">iPhone 11 Pro</h5>
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-              </div>
-              <div class="card-footer">
-                  <h5>$999</h5>
-                <button class="btn-custom cd-btn">Buy Now -></button>
-              </div>
+                <img class="card-img-top" src="images/phone/phone-2.png" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">iPhone 11 Pro</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                        additional content. This content is a little bit longer.</p>
+                </div>
+                <div class="card-footer">
+                    <h5>$999</h5>
+                    <button class="btn-custom cd-btn">Buy Now -></button>
+                </div>
             </div>
             <div class="card">
-              <img class="card-img-top" src="images/phone/phone-1.png" alt="Card image cap">
-              <div class="card-body">
-                <h5 class="card-title">Samsung Galaxy Note 10</h5>
-                <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-              </div>
-              <div class="card-footer">
-                <h5>$799</h5>
-                <button class="btn-custom cd-btn">Buy Now -></button>
-            </div>
+                <img class="card-img-top" src="images/phone/phone-1.png" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Samsung Galaxy Note 10</h5>
+                    <p class="card-text">This card has supporting text below as a natural lead-in to additional content.
+                    </p>
+                </div>
+                <div class="card-footer">
+                    <h5>$799</h5>
+                    <button class="btn-custom cd-btn">Buy Now -></button>
+                </div>
             </div>
             <div class="card">
-              <img class="card-img-top" src="images/phone/phone-3.png" alt="Card image cap">
-              <div class="card-body">
-                <h5 class="card-title">Redmi Note 7</h5>
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-              </div>
-              <div class="card-footer">
-                  <h5>$699</h5>
-                <button class="btn-custom cd-btn">Buy Now -></button>
+                <img class="card-img-top" src="images/phone/phone-3.png" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Redmi Note 7</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                        additional content. This card has even longer content than the first to show that equal height
+                        action.</p>
+                </div>
+                <div class="card-footer">
+                    <h5>$699</h5>
+                    <button class="btn-custom cd-btn">Buy Now -></button>
+                </div>
             </div>
-            </div>
-          </div>
+        </div>
     </div>
 
-    <div class="container">
+    <div class="container" id="laptop">
         <div class="phone-head d-flex justify-content-between">
             <h2>Laptops</h2>
             <a href="#">See all</a>
         </div>
         <div class="card-deck">
             <div class="card">
-              <img class="card-img-top" src="images/laptop/product-1.png" alt="Card image cap">
-              <div class="card-body">
-                <h5 class="card-title">Asus Vivo Book</h5>
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-              </div>
-              <div class="card-footer">
-                <h5>$999</h5>
-                <button class="btn-custom cd-btn">Buy Now -></button>
-              </div>
+                <img class="card-img-top" src="images/laptop/product-1.png" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Asus Vivo Book</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                        additional content. This content is a little bit longer.</p>
+                </div>
+                <div class="card-footer">
+                    <h5>$999</h5>
+                    <button class="btn-custom cd-btn">Buy Now -></button>
+                </div>
             </div>
             <div class="card">
-              <img class="card-img-top" src="images/laptop/product-2.png" alt="Card image cap">
-              <div class="card-body">
-                <h5 class="card-title">Razer Blade 15</h5>
-                <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-              </div>
-              <div class="card-footer">
-                <h5>$2799</h5>
-                <button class="btn-custom cd-btn">Buy Now -></button>
-            </div>
+                <img class="card-img-top" src="images/laptop/product-2.png" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Razer Blade 15</h5>
+                    <p class="card-text">This card has supporting text below as a natural lead-in to additional content.
+                    </p>
+                </div>
+                <div class="card-footer">
+                    <h5>$2799</h5>
+                    <button class="btn-custom cd-btn">Buy Now -></button>
+                </div>
             </div>
             <div class="card">
-              <img class="card-img-top" src="images/laptop/product-3.png" alt="Card image cap">
-              <div class="card-body">
-                <h5 class="card-title">Xiami MI Notebook Pro</h5>
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-              </div>
-              <div class="card-footer">
-                <h5>$999</h5>
-                <button class="btn-custom cd-btn">Buy Now -></button>
+                <img class="card-img-top" src="images/laptop/product-3.png" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Xiami MI Notebook Pro</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                        additional content. This card has even longer content than the first to show that equal height
+                        action.</p>
+                </div>
+                <div class="card-footer">
+                    <h5>$999</h5>
+                    <button class="btn-custom cd-btn">Buy Now -></button>
+                </div>
             </div>
-            </div>
-          </div>
+        </div>
     </div>
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript">
+        var scrolltotop = { setting: { startline: 100, scrollto: 0, scrollduration: 1e3, fadeduration: [500, 100] }, controlHTML: '<img src="https://i1155.photobucket.com/albums/p559/scrolltotop/arrow7.png" />', controlattrs: { offsetx: 5, offsety: 5 }, anchorkeyword: "#top", state: { isvisible: !1, shouldvisible: !1 }, scrollup: function () { this.cssfixedsupport || this.$control.css({ opacity: 0 }); var t = isNaN(this.setting.scrollto) ? this.setting.scrollto : parseInt(this.setting.scrollto); t = "string" == typeof t && 1 == jQuery("#" + t).length ? jQuery("#" + t).offset().top : 0, this.$body.animate({ scrollTop: t }, this.setting.scrollduration) }, keepfixed: function () { var t = jQuery(window), o = t.scrollLeft() + t.width() - this.$control.width() - this.controlattrs.offsetx, s = t.scrollTop() + t.height() - this.$control.height() - this.controlattrs.offsety; this.$control.css({ left: o + "px", top: s + "px" }) }, togglecontrol: function () { var t = jQuery(window).scrollTop(); this.cssfixedsupport || this.keepfixed(), this.state.shouldvisible = t >= this.setting.startline ? !0 : !1, this.state.shouldvisible && !this.state.isvisible ? (this.$control.stop().animate({ opacity: 1 }, this.setting.fadeduration[0]), this.state.isvisible = !0) : 0 == this.state.shouldvisible && this.state.isvisible && (this.$control.stop().animate({ opacity: 0 }, this.setting.fadeduration[1]), this.state.isvisible = !1) }, init: function () { jQuery(document).ready(function (t) { var o = scrolltotop, s = document.all; o.cssfixedsupport = !s || s && "CSS1Compat" == document.compatMode && window.XMLHttpRequest, o.$body = t(window.opera ? "CSS1Compat" == document.compatMode ? "html" : "body" : "html,body"), o.$control = t('<div id="topcontrol">' + o.controlHTML + "</div>").css({ position: o.cssfixedsupport ? "fixed" : "absolute", bottom: o.controlattrs.offsety, right: o.controlattrs.offsetx, opacity: 0, cursor: "pointer" }).attr({ title: "Scroll to Top" }).click(function () { return o.scrollup(), !1 }).appendTo("body"), document.all && !window.XMLHttpRequest && "" != o.$control.text() && o.$control.css({ width: o.$control.width() }), o.togglecontrol(), t('a[href="' + o.anchorkeyword + '"]').click(function () { return o.scrollup(), !1 }), t(window).bind("scroll resize", function (t) { o.togglecontrol() }) }) } }; scrolltotop.init();</script>
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
         integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
