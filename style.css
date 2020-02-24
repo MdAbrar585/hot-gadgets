@@ -86,5 +86,35 @@ footer img{
     box-shadow: 5px 5px 10px lightblue;
     border-radius: 50px 10px 50px 10px;
 }
+.footer-copyright{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.social{
+    margin: 0px;
+    height: 70px;
+    background-color: white;
+}
+.social ul{
+    margin-left: -62px;
+    list-style: none;
+    padding-top: 10px;
 
-
+}
+.social ul li{
+    display: inline-block;
+    
+}
+.social ul li i{
+    color: black;
+    font-size: 40px;
+    text-align: center;
+    margin-left: 15px;
+}
+hr.hr-one{
+    height: 5px;
+    border: 1px solid lightblue;
+    border-radius: 20px;
+    border: none;
+    background-image: linear-gradient(to left,lightgrey,lightblue);
+}
